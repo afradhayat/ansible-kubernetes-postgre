@@ -1,0 +1,20 @@
+====================================================================
+TO DO: CREATE THE SSH KEYGEN TO ALLOW ANSIBLE TO LOGIN
+====================================================================
+               STEPS FOLLOWED TO MAKE THE CLUSTER
+====================================================================
+1. OS: Centos 7
+2. Node: 3
+3. Master: 1
+4. Worker: 2
+5. Master IP: 192.168.187.138
+6. Worker IP: 192.168.187.139 / 140
+7. Install ansible from yum
+8. Create the host file and the variable file
+9. Create seperate files inside the playbook for swap, docker install, selinux, ip tables, daemon file, kube repo, kube image pull, kubeadm init and the network connection followed by the worker nodes join command.
+10. The config files copy and execution may differ depending on the user.
+
+======================================================================
+                    THE END @ afrad hayat
+=====================================================================
+

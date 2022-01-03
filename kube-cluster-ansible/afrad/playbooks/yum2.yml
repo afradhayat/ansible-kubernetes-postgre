@@ -1,0 +1,9 @@
+---
+- hosts: all
+  vars_files:
+  - env_variables
+  tasks:
+  - name: ensure wget and ruby are installed
+    yum:
+      name:
+	 - kubelet
